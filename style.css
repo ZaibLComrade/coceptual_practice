@@ -1,0 +1,49 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-size: 100%;
+}
+
+.logo-image {
+	width: 12em;
+}
+
+.menu-container {
+	background: #151515;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 0.8em;
+}
+
+.menu {
+	color: white;
+	display: flex;
+}
+
+.list-item {
+	list-style: none;
+	cursor: pointer;
+	margin-right: 0.9em;
+}
+
+.list-item:hover {
+	color: tomato;
+}
+
+.banner-image {
+	width: 250px;
+}
+
+.banner-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 120px;
+	color: white;
+	height: 100vh;	
+	background-image: url('./images/background.png'), linear-gradient(45deg, black, #2f2f2f);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
