@@ -32,18 +32,36 @@
 }
 
 .banner-image {
-	width: 250px;
+	width: 300px;
 }
 
 .banner-container {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	padding: 120px;
 	color: white;
 	height: 100vh;	
 	background-image: url('./images/background.png'), linear-gradient(45deg, black, #2f2f2f);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+
+.text-container > h1 {
+	font-size: 3em;
+	font-weight: bolder;
+}
+
+.text-container > p {
+	margin-top: 7px;
+}
+
+.banner-btn {
+	margin-top: 1.3em;
+	padding: 1em;
+	border: 0px solid black;
+	border-radius: 0px;
+	background-color: red;
+	color: white;
+	font-size: 0.9em;
 }
